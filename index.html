@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floral Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Floral Boutique</h1>
+            <nav class="nav">
+                <a href="#featured">Featured Flowers</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#cart">Cart</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Fresh Flowers Delivered to Your Doorstep</h2>
+            <p>Explore our wide range of handpicked florals for every occasion.</p>
+            <a href="#featured" class="button">Shop Now</a>
+        </div>
+    </section>
+    <section id="featured" class="featured">
+        <div class="container">
+            <h2>Featured Flowers</h2>
+            <div class="flower-grid">
+                <div class="flower-card" data-name="Roses" data-price="25">
+                    <img src="rose.jpg" alt="Roses">
+                    <h3>Roses</h3>
+                    <p>$25 per bouquet</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="flower-card" data-name="Tulips" data-price="30">
+                    <img src="tulip.jpg" alt="Tulips">
+                    <h3>Tulips</h3>
+                    <p>$30 per bouquet</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="flower-card" data-name="Sunflowers" data-price="20">
+                    <img src="sunflower.jpg" alt="Sunflowers">
+                    <h3>Sunflowers</h3>
+                    <p>$20 per bouquet</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Floral Boutique is your go-to destination for fresh, high-quality flowers. Our mission is to bring beauty and joy to your life through our blooms.</p>
+        </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <div class="container">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items">
+                <p>Your cart is empty.</p>
+            </div>
+            <div id="cart-total">
+                <strong>Total:</strong> $<span>0</span>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: floralboutique</p>
+            <p>Phone: +91 99826634133</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
